@@ -27,7 +27,7 @@ cd fis-okuma-sistemi
 
 2. Sanal ortam oluşturulması ve etkinleştirilmesi:
 ```bash
-python -m venv venv
+py -3.10 -m venv .venv310    
 # Windows:
 venv\Scripts\activate
 # Linux/Mac:
