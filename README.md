@@ -126,14 +126,6 @@ Projeyi geliştirmek için:
 5. Pull Request oluşturun
 
 
-## ❓ Sorun Giderme
-
-### Sık Karşılaşılan Sorunlar
-
-1. **API anahtarı hatası**: `.env` dosyasında doğru API anahtarınızın olduğundan emin olun
-2. **Görüntü formatı hatası**: JPEG, PNG veya WebP formatlarını kullanın
-3. **Bağımlılık hataları**: Tüm gereksinimleri doğru yüklediğinizden emin olun
-
 ### Hata Ayıklama
 
 Detaylı loglar için uygulamayı debug modunda çalıştırın:
