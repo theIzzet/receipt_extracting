@@ -19,13 +19,13 @@ Bu proje, alışveriş fişlerini okuyarak içerdikleri bilgileri (tarih, saat, 
 
 ## 🔧 Kurulum
 
-1. Depoyu klonlayın:
+1. Depoyu klonlamak için:
 ```bash
-git clone <repository-url>
+git clone https://github.com/theIzzet/receipt_extracting.git
 cd fis-okuma-sistemi
 ```
 
-2. Sanal ortam oluşturun ve etkinleştirin:
+2. Sanal ortam oluşturulması ve etkinleştirilmesi:
 ```bash
 python -m venv venv
 # Windows:
@@ -34,12 +34,12 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3. Gerekli paketleri yükleyin:
+3. Gerekli paketlerin yüklenmesi:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Ortam değişkenlerini ayarlayın:
+4. Ortam değişkenlerinin ayarlanması:
    
    `.env` dosyası oluşturun ve OpenRouter API anahtarınızı ekleyin:
    ```
@@ -48,12 +48,12 @@ pip install -r requirements.txt
 
 ## 🏃‍♂️ Çalıştırma
 
-1. Uygulamayı başlatın:
+1. Uygulamanın çalıştırılması:
 ```bash
 uvicorn main:app --reload
 ```
 
-2. Tarayıcınızda API dokümantasyonuna erişin:
+2. Tarayıcınızda API dokümantasyonuna erişim:
 ```
 http://localhost:8000/docs
 ```
